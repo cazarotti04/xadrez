@@ -8,6 +8,15 @@ namespace tabuleiro
 {
     class tabuleiro
     {
-        
+        private peca[,] pecas;
+        public int linhas { get; set; }
+        public int colunas { get; set; }
+
+        public tabuleiro(int linhas, int colunas)
+        {
+            this.linhas = linhas;
+            this.colunas = colunas;
+            pecas = new peca[linhas, colunas];
+        }
     }
 }

@@ -7,11 +7,7 @@ namespace tabuleiro
     {
         static void Main(string[] args)
         {
-            posicao p;
-
-            p = new posicao(1, 2);
-
-            Console.WriteLine(p);
+            tabuleiro tab = new tabuleiro(8, 8);
 
             Console.ReadLine();
 
