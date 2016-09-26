@@ -1,21 +1,20 @@
 ﻿using System;
+using tabuleiro;
 
-
-namespace proj
+namespace tabuleiro
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite um valor inteiro: ");
+            posicao p;
 
-            int x = int.Parse(Console.ReadLine());
+            p = new posicao(1, 2);
 
-            int y = 3 * x;
-
-            Console.WriteLine("Triplo = " + y);
+            Console.WriteLine(p);
 
             Console.ReadLine();
+
         }
     }
 }
