@@ -1,11 +1,11 @@
 ﻿using System;
 using tabuleiro;
 
-namespace tabuleiro
+namespace proj
 {
     class tela
     {
-        public static void imprimirtabuleiro(tabuleiro tab)
+        public static void imprimirtabuleiro(Tabuleiro tab)
         {
             for(int i=0; i<tab.linhas; i++)
             {

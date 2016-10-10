@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace tabuleiro
 {
-    class peca
+    class Peca
     {
-        public posicao pos { get; set; }
-        public tabuleiro tab { get; protected set; }
-        public cor cc { get; protected set; }
+        public Posicao pos { get; set; }
+        public Tabuleiro tab { get; protected set; }
+        public Cor cc { get; protected set; }
         public int qtmov { get; protected set; }
 
-        public peca(posicao pos, tabuleiro tab, cor cc)
+        public Peca(Tabuleiro tab, Cor cc)
         {
-            this.pos = pos;
+            this.pos = null;
             this.tab = tab;
             this.cc = cc;
             this.qtmov = 0;
