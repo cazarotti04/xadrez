@@ -1,0 +1,6 @@
+C:\Users\13874076601\Desktop\xadrez-master\proj\bin\Debug\proj.exe.config
+C:\Users\13874076601\Desktop\xadrez-master\proj\bin\Debug\proj.exe
+C:\Users\13874076601\Desktop\xadrez-master\proj\bin\Debug\proj.pdb
+C:\Users\13874076601\Desktop\xadrez-master\proj\obj\Debug\proj.csprojResolveAssemblyReference.cache
+C:\Users\13874076601\Desktop\xadrez-master\proj\obj\Debug\proj.exe
+C:\Users\13874076601\Desktop\xadrez-master\proj\obj\Debug\proj.pdb
